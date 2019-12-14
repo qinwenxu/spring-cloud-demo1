@@ -11,8 +11,11 @@
     <modules>
         <module>eureka-sever</module>
         <module>config-server</module>
-        <module>eureka-client1</module>
+        <module>front</module>
         <module>gateway</module>
+        <module>api</module>
+        <module>base</module>
+        <module>common</module>
     </modules>
 
     <properties>

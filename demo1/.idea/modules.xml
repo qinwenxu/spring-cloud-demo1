@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/springcloud/api/api.iml" filepath="$PROJECT_DIR$/springcloud/api/api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud/api/api-base/api-base.iml" filepath="$PROJECT_DIR$/springcloud/api/api-base/api-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud/base/base.iml" filepath="$PROJECT_DIR$/springcloud/base/base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud/common/common.iml" filepath="$PROJECT_DIR$/springcloud/common/common.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud/config-server/config-server.iml" filepath="$PROJECT_DIR$/springcloud/config-server/config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/demo1.iml" filepath="$PROJECT_DIR$/.idea/demo1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springcloud/eureka-client1/eurekaclient1.iml" filepath="$PROJECT_DIR$/springcloud/eureka-client1/eurekaclient1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud/front/eurekaclient1.iml" filepath="$PROJECT_DIR$/springcloud/front/eurekaclient1.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud/eureka-sever/eurekasever.iml" filepath="$PROJECT_DIR$/springcloud/eureka-sever/eurekasever.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud/gateway/gateway.iml" filepath="$PROJECT_DIR$/springcloud/gateway/gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud/product/product.iml" filepath="$PROJECT_DIR$/springcloud/product/product.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud/qq.iml" filepath="$PROJECT_DIR$/springcloud/qq.iml" />
     </modules>
   </component>

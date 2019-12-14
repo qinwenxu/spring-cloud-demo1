@@ -1,14 +1,16 @@
-package com.client1;
+package com.front;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import org.springframework.cloud.netflix.feign.EnableFeignClients;
 
 @SpringBootApplication
 @EnableEurekaClient
-public class Client1Application {
+@EnableFeignClients(basePackages={"com.qwx.**.feign"})
+public class FrontApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(Client1Application.class);
+        SpringApplication.run(FrontApplication.class);
     }
 }

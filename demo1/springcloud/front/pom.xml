@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>qq</artifactId>
+        <groupId>com.qwx</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>front</artifactId>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <jdk.version>1.8</jdk.version>
+        <spring.version>4.3.7.RELEASE</spring.version>
+        <common.version>1.0-SNAPSHOT</common.version>
+        <itext-asian.version>5.2.0</itext-asian.version>
+        <calcite-linq4j.version>1.2.0-incubating</calcite-linq4j.version>
+        <pinyin4j.version>2.5.0</pinyin4j.version>
+        <thumbnailator.version>0.4.8</thumbnailator.version>
+        <fastdfs-client.version>1.25-RELEASE</fastdfs-client.version>
+        <zxing.core.version>3.2.1</zxing.core.version>
+        <zxing.javase.version>3.2.1</zxing.javase.version>
+        <json-lib.version>2.4</json-lib.version>
+        <api-base.version>1.0-SNAPSHOT</api-base.version>
+    </properties>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.qwx</groupId>
+            <artifactId>api-base</artifactId>
+            <version>${api-base.version}</version>
+        </dependency>
+
+    </dependencies>
+
+</project>

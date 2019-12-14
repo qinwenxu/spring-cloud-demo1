@@ -6,18 +6,27 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="config-server" />
         <module name="gateway" />
-        <module name="eurekasever" />
+        <module name="product" />
+        <module name="common" />
         <module name="eurekaclient1" />
+        <module name="eurekasever" />
+        <module name="base" />
+        <module name="config-server" />
+        <module name="api-base" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="api" target="1.6" />
+      <module name="api-base" target="1.6" />
+      <module name="base" target="1.6" />
+      <module name="common" target="1.6" />
       <module name="config-server" target="1.6" />
       <module name="eurekaclient1" target="1.6" />
       <module name="eurekaconfig" target="1.6" />
       <module name="eurekasever" target="1.6" />
       <module name="gateway" target="1.6" />
+      <module name="product" target="1.6" />
       <module name="qq" target="1.6" />
     </bytecodeTargetLevel>
   </component>
