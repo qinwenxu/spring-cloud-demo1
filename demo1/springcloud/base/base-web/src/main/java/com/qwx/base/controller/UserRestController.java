@@ -23,6 +23,9 @@ public class UserRestController {
     @ResponseBody
     public List<User> getUserList() {
         List<User> userList = userService.getUserList();
+        for(User u : userList) {
+            u.setId(port);
+        }
         return userList;
     }
 

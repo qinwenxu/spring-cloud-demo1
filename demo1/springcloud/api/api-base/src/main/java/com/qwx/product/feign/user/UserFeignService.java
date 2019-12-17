@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import java.util.List;
 //@FeignClient("${server.base.name}")
-@FeignClient("base")
+@FeignClient("base-dev")
 @RequestMapping(value = "/base/restful/userRestController", produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
 public interface UserFeignService {
 
