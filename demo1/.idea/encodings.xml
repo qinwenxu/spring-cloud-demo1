@@ -5,6 +5,12 @@
     <file url="file://$PROJECT_DIR$/springcloud/api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud/api/api-base" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud/base" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud/base/base-dao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud/base/base-model" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud/base/base-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud/base/base-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud/base/base-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud/base/base-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud/common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud/config-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud/eureka-sever" charset="UTF-8" />

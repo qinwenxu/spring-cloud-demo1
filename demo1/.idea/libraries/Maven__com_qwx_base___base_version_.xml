@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.qwx:base:${base.version}">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/qwx/base/${base.version}/base-${base.version}.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/qwx/base/${base.version}/base-${base.version}-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/qwx/base/${base.version}/base-${base.version}-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

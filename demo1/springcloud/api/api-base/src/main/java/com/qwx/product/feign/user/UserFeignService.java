@@ -1,6 +1,6 @@
 package com.qwx.product.feign.user;
 
-import com.qwx.common.base.entity.User;
+import com.qwx.common.base.entity.user.User;
 import org.springframework.cloud.netflix.feign.FeignClient;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.RequestMapping;

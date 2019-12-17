@@ -7,19 +7,26 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="gateway" />
+        <module name="basemodel" />
         <module name="product" />
         <module name="common" />
+        <module name="api-base" />
         <module name="eurekaclient1" />
         <module name="eurekasever" />
-        <module name="base" />
         <module name="config-server" />
-        <module name="api-base" />
+        <module name="basedao" />
+        <module name="baseservice" />
+        <module name="baseweb" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="api" target="1.6" />
       <module name="api-base" target="1.6" />
       <module name="base" target="1.6" />
+      <module name="basedao" target="1.6" />
+      <module name="basemodel" target="1.6" />
+      <module name="baseservice" target="1.6" />
+      <module name="baseweb" target="1.6" />
       <module name="common" target="1.6" />
       <module name="config-server" target="1.6" />
       <module name="eurekaclient1" target="1.6" />

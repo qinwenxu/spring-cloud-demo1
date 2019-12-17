@@ -23,6 +23,7 @@
         <timestamp>${maven.build.timestamp}</timestamp>
         <maven.build.timestamp.format>yyyyMMddHHmm</maven.build.timestamp.format>
         <common.version>1.0-SNAPSHOT</common.version>
+        <base-model.version>1.0-SNAPSHOT</base-model.version>
     </properties>
 
     <dependencies>

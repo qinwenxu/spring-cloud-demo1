@@ -10,6 +10,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>base</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>base-web</module>
+        <module>base-dao</module>
+        <module>base-service</module>
+        <module>base-model</module>
+        <module>base-service</module>
+    </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

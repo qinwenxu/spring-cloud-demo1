@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="basedao:war">
+    <output-path>$PROJECT_DIR$/springcloud/base/base-dao/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>basedao</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="base-dao-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="basedao:war exploded" />
+    </root>
+  </artifact>
+</component>
