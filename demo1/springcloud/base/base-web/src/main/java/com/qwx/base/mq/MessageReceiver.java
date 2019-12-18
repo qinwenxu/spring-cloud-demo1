@@ -1,7 +1,5 @@
 package com.qwx.base.mq;
 
-import com.alibaba.fastjson.JSON;
-import com.alibaba.fastjson.JSONObject;
 import org.apache.commons.lang.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -9,7 +7,7 @@ import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.stereotype.Component;
 
 /***
- * 报表模块消费服务
+ * 消费服务
  */
 @Component
 public class MessageReceiver {
@@ -25,15 +23,15 @@ public class MessageReceiver {
     public void processEquipmentDataMessage(String msg){
 
         //来源设备日志数据进行处理
-    	LOGGER.info("processEquipmentDataMessage:{}", msg);
+    	LOGGER.info("mq_base_userData_queue_name Message:{}", msg);
         if (StringUtils.isBlank(msg)) {
         	return;
         }
         try {
-            JSONObject msgJson = JSON.parseObject(msg);
-            LOGGER.info("接受到的消息为-----------：" + msgJson);
+            //JSONObject msgJson = JSON.parseObject(msg);
+            LOGGER.info("接受到的消息为{}" + msg);
         } catch (Exception e) {
-            LOGGER.error("ReportConsumerMessage获取mq队列异常{}", e);
+            LOGGER.error("获取mq_base_userData_queue_name队列异常{}", e);
             return;
         }
     }

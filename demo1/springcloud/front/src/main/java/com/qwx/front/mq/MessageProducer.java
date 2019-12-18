@@ -13,7 +13,7 @@ import org.springframework.stereotype.Component;
 import javax.annotation.Resource;
 
 /**
- *  报表 会员消费排行报表队列
+ *  生产者
  * @author WEN
  *
  */

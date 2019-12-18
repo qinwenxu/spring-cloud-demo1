@@ -1,7 +1,6 @@
 package com.qwx.product.controller;
 
-import com.qwx.common.base.entity.User;
-import org.springframework.stereotype.Controller;
+import com.qwx.common.base.entity.user.User;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -16,7 +15,6 @@ public class UserRestController {
     public List<User> getUserList1() {
         List<User> userList = new ArrayList<User>();
         User user = new User();
-        user.setUserName("张三");
         userList.add(user);
         return userList;
     }
