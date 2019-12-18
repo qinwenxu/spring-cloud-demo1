@@ -1,4 +1,4 @@
-package com.front.controller;
+package com.qwx.front.controller;
 
 import com.qwx.common.base.entity.user.User;
 import com.qwx.product.feign.user.UserFeignService;
